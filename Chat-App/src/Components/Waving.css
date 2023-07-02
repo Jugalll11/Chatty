@@ -1,0 +1,52 @@
+.waving{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: aliceblue;
+}
+
+span{
+    color: blueviolet;
+}
+
+h2{
+    line-height: 0.1rem;
+}
+
+
+
+.ChatCont{
+    display: grid;
+    grid-template-rows: 15% 75% 10%;
+    
+}
+
+.header img{
+    max-height: 70%;
+}
+
+
+.header{
+    display: grid;
+    grid-template-rows: auto;
+    background-color: rgb(0, 0, 0);
+    color: wheat;
+}
+
+.message{
+    display: flex;
+    background-color: aliceblue;
+}
+
+.input{
+    display: flex;
+    background-color: blueviolet;
+}
+
+.avatar {
+    gap: 1rem;
+    justify-content: flex-start;
+    align-items: center;
+    height: 80%;
+}
